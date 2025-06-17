@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfaf6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f8c471;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: #d35400;
+            padding: 10px 20px;
+            border-radius: 15px;
+        }
+
+        nav a:hover {
+            background-color: #a04000;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff3e0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #d35400;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a04000;
+        }
+
+        footer {
+            background-color: #f39c12;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recomendaciones</h1>
+        <nav>
+            <ul>
+                <li><a href="../styles.html">TYPES STYLES</a></li>
+                <li><a href="../pages/outfits.html">OUTFITS STYLES</a></li>
+                <li><a href="">RECOMENDACIONES Y CONTACTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>RECOMENDACIONES Y CONTACTOS</h1>
+
+    <section>
+        <h2>Déjanos tu recomendación</h2>
+        <form action="#" method="post">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="mensaje" rows="4" placeholder="Escribe tu recomendación o mensaje aquí" required></textarea>
+            <button type="submit">Enviar recomendación</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Contacto directo</h2>
+        <p>Puedes comunicarte conmigo a través de los siguientes medios:</p>
+        <ul>
+            <li><strong>Correo electrónico:</strong> derrickmgl10@gmail.com</li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/derrixs_" target="_blank">@derrixs_</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/593999999999" target="_blank">+593 098 434 6182</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Style Clothes. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
